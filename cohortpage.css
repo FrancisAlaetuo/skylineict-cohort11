@@ -1,0 +1,249 @@
+
+/* MY HEADER-CONTENT DESIGN STARTS HERE */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+
+}.container{
+   
+    height: 100vh;
+}
+
+body{
+    background-color: rgb(99, 109, 42);
+}
+
+
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    background-color:white;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+.searchbox button{
+    font-size: 20px;
+    color: rgb(12, 12, 95);
+    font-weight: bolder;
+    position: absolute;
+    top: 6px;
+    margin-left:4px ;
+    
+
+}
+
+
+
+
+
+
+.searchbox{
+    position: relative;
+}
+
+
+
+
+
+
+.searchbox input{
+    padding: 10px 60px;
+    border-radius: 5px;
+}
+
+
+
+.new-studio{
+    display: flex;
+    gap: 50px;
+}
+
+
+.new{
+    position: relative;
+}
+
+
+.new button{
+    position: absolute;
+    right: 5px;
+    bottom: 8px;
+}
+
+.new input{
+    padding: 10px 2px;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+
+.new-stu{
+    position: relative;
+}
+
+
+.new-stu button{
+    position: absolute;
+    /* text-indent: 10px; */
+    bottom: 10px;
+    font-size: 9px;
+    left: 20px;
+ 
+}
+
+.new-stu input{
+    padding: 10px 2px;
+    border-radius: 15px;
+    border: 1px solid gray;
+    background-color: rgb(9, 9, 119);
+    color: white;
+    padding-left: 35px;
+
+  }
+
+
+  /* MY HEADER-CONTENT DESIGN ENDS HERE */
+
+
+
+
+/* MY TABLE DESIGN FOR CSS STARTS HERE */
+
+table,tr,th{
+    border: 1px solid;
+    border-collapse: collapse;
+     border: none;
+}
+
+
+table{
+    width: 100%;
+}
+
+
+th{
+    background-color: rgb(139, 205, 63);
+    padding: 20px 0px;
+    text-align: left;
+    color: rgb(11, 15, 240);
+    font-weight: bolder;
+    
+}
+
+td{
+    padding: 20px 0px;
+    background-color: white;
+    font-weight: bold;
+}
+
+td:nth-child(1){
+    text-align: center;
+}
+
+
+
+th:nth-child(1){
+    text-align: center;
+    padding-left: 12px;
+}
+
+
+tr{
+    font-size: 20px;
+    
+}
+
+
+
+
+.phone{
+    background-color: rgb(139, 205, 63);
+    padding: 5px;
+    border-radius: 20px;
+    color: white;
+}
+
+
+.message{
+    background-color: rgb(139, 205, 63);
+    padding: 5px;
+    border-radius: 20px;
+    color: white;
+    
+    
+}
+
+/* MY TABLE DESIGN FOR CSS ENDS HERE */
+
+
+
+
+
+
+
+
+
+/* MOBILE RESPONSIVENESS FOR MY HEADER-CONTENT */
+
+@media screen and (max-width:1021px){
+    .header-content{
+        display: grid;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 10px;
+        background-color:white;
+        padding:3px;
+        margin-bottom: 20px;
+    }
+    
+
+    
+}
+
+
+@media (min-width:975px){
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    background-color:white;
+    padding: 3px;
+    margin-bottom: 20px;
+}
+}
+
+
+/* 
+TABLE HEAD RESPONSIVENESS */
+
+
+
+    
+
+
+
+
+
+
+
+
+
+    
+
+    
+ 
+    
+
+
+
+
