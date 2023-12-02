@@ -1,0 +1,188 @@
+body{
+    background-image: url(./3984599.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover; 
+
+    
+    
+    
+}
+
+.signup{
+    
+        background-color: rgb(255, 255, 255); 
+         padding:6px 40px;
+        width: 400px;  
+         margin: auto;
+         border-radius: 20px; 
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: bold;     
+        
+}
+.span1{
+    color: red;
+    font-size: 25px;
+    font-weight: bold; 
+
+}
+
+form{
+    
+    color: gray; 
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     
+}
+.en label{
+     margin-left: 6px; 
+}
+
+
+.en input{
+ width: 400px; 
+ background-color: transparent; 
+border: none;
+border-bottom: 2px solid rgb(201, 230, 236);
+font-size: 15px;
+font-weight: bold;
+padding: 5px 0; 
+outline: none;
+ color: rgb(34, 34, 202);
+ text-indent: 6px;
+
+
+}
+
+input{
+width: 100%;
+border: none;
+background-color: transparent; 
+border: none;
+border-bottom: 2px solid rgb(201, 230, 236);
+font-size: 15px;
+font-weight: bold;
+padding: 6px 0; 
+outline: none;
+ color: rgb(34, 34, 202);
+ text-indent: 6px;
+    
+}
+
+/* here my gender and age section ,
+use column gap to create an input space */
+
+.parent{
+    display: flex;
+    column-gap: 100px;
+}
+
+.left, .right{
+    flex: 1;
+    justify-content: space-between;
+}
+
+.left label{
+    display: block;
+}
+
+.right label{
+    display: block;
+}
+
+
+/* HERE IS MY .divider (OR) SECTION,  (DISPLAY FLEX) POSITION (OR) TO THE RIGHT SIDE AND 
+ /ALIGN TO CENTER TO THE  DESIGN THEN A MARGIN ALL ROUND */
+.divider{
+    display: flex;
+    align-items: center;
+    margin: 8PX;
+
+}
+
+
+/* HERE IS THE DESIGN FOR MY (OR) START WITH AN empty CONTENT FOR BOTH BEFORE AND AFTER 
+ AND FLEX GAVE A BORDER  BTW THE BEFORE AND AFTER*/
+
+.divider::before, .divider::after{
+     content:""; 
+     padding: 1px;
+    background-color: lightblue;
+    flex: 1;
+    margin: 0 2px;   
+}
+.dividerbg{
+    color: gray;
+    padding: 25px;
+    
+}
+button{
+    border: none;
+    width: 150px;
+    font-size: 16px;
+    padding:8px 0 ;
+    border-radius: 8px;
+    background-color: darkblue;
+    color: white;
+    cursor: pointer;
+    margin-left:140px;
+    margin-top: 15px;
+    
+    
+    
+}
+button:hover{
+    background-color:gray;
+    color: black;
+
+}
+h1{
+    color: rgb(30, 30, 173);
+    font-size: 30px;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bold;
+
+}
+.social{
+    text-align: center;
+    margin-top: -20px;
+}
+.social img{
+    background-color: whitesmoke;
+    border-radius: 32px;
+    border: 1px solid transparent;
+    margin-right: 50px;
+    width: 30px;
+    margin-bottom: -10px;
+}
+.fa-apple{
+    background-color: blue;
+    font-size: 28px;
+    color: white;
+    border-radius: 22px;
+    width: 25px;
+    padding: 4px;
+    margin-left: 40px;
+}
+.fa-facebook-f{
+    background-color: blue;
+    color: white;
+    padding:4px 10px ;
+    font-size: 25px;
+    border-radius: 22px;
+}
+.Account{
+    text-align: center;
+    color: gray;
+}
+a{
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+    
+}
+a:hover{
+    color: palegreen;
+}
