@@ -329,7 +329,6 @@ body {
 }
 
 
-
 @media (max-width: 650px) {
     .contact {
         display: flex;
@@ -341,4 +340,6 @@ body {
         padding-right: 35%;
     }
 }
+
+/* CSS ENDS */
 
