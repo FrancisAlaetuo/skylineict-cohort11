@@ -1,0 +1,124 @@
+body{
+       
+        background-color: rgb(255, 123, 0); 
+        margin: 0%;
+        padding: 0px;
+        box-sizing: border-box;
+        
+       
+      
+    }
+    button{
+        background-color: rgb(11, 11, 102);
+        padding: 10px 40px;
+        color: white;
+        text-transform: capitalize;
+        border-radius: 10px;
+        margin-top: 20px;
+    }
+
+    
+    /* .main , fa-solid {
+        position: relative;
+        color: red;
+
+    }
+
+    .span{
+        position: relative;
+        color: red;
+    } */
+
+    .form input{
+      border: none;
+      border-bottom: 2px solid grey;
+      background-color: transparent;
+      width: 400px;
+      
+
+    }
+
+    h1{
+        color: rgb(11, 11, 110);
+        text-transform: capitalize;
+    
+    }
+
+    
+    .main{
+
+        height: 50% ;
+        width: 50%;
+        background-color: white;
+       
+        margin: 100px 260px;
+        border-radius: 15px;
+        text-align: center;
+        padding-top: 30px;
+    
+    }
+    
+
+    .logo{
+        position: absolute;ls
+        right: 135px;
+    }
+    
+ 
+    .img{
+        margin-right: 30px;
+    }
+
+    .img2{
+        margin-left: 30px;
+    }
+    .images{
+        margin-top: 40px;
+    }
+
+    .form{
+        border: 2px solid gray; 
+        border: none;
+        border-bottom: 1px;
+        border-color: transparent;
+        border-left: 59px;
+        border-right: none; 
+        position: relative;
+         margin: 20px 0px; 
+
+    } 
+
+    fieldset {
+        border: 2px solid gray;
+        border-bottom: none;
+        border-left: none;
+        border-right: none;
+        
+        margin: 40px 115px;
+        padding: 5px 40px;
+        
+    }
+
+    .or{
+        padding: 25px;
+    }
+
+    .already{
+       padding-bottom: 20px;
+        
+    }
+    
+
+/*   
+    .signup{
+        padding: 8PX 10px;
+        border: 2PX solid silver;
+        background-color: white;
+        border: none;
+    } */
+
+
+   
+    
+      
+   
