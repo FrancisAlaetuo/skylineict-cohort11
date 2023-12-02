@@ -321,12 +321,24 @@ body {
     .side {
         flex-direction: column;
     }
+
+    .card {
+        padding-left: 40%;
+        padding-right: 40%;
+    }
 }
+
+
 
 @media (max-width: 650px) {
     .contact {
         display: flex;
         flex-direction: column;
+    }
+
+    .card {
+        padding-left: 35%;
+        padding-right: 35%;
     }
 }
 
