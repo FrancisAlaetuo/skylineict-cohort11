@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    padding-top: 25px;
+}
+
+.score {
+    width: 95%;
+    margin: auto;
+    position: relative;
+}
+
+.enquiry {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input[type=text] {
+    width: 75%;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    text-indent: 22px;
+}
+
+table {
+    width: 100%;
+}
+
+table, th, td {
+    border-collapse: collapse;
+    height: 60px;
+    text-align: center;
+    /* border: none; */
+    border-bottom: 1px solid rgb(211, 211, 211);
+}
+
+th {
+    background-color: white;
+    color: #000;
+}
+
+.accept {
+    background-color: green;
+    border-radius: 5px;
+    padding: 10px;
+}
+.process {
+    background-color: orange;
+    border-radius: 5px;
+    padding: 10px;
+}
+.reject {
+    background-color: red;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.headphone, .cart {
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    text-align: center;
+    padding-top: 12px;
+    color: #fff;
+    position: fixed;
+}
+
+.headphone {
+    background-color: rgb(66, 143, 221);
+    right: 5px;
+    bottom: 65px;
+}
+.cart {
+    background-color: rgb(62, 226, 62);
+    right: 5px;
+    bottom: 20px;
+}
+
+@media screen and (min-width: 350px) and (max-width: 649px) {
+    table, th, td {
+        font-size: 0.7rem;
+        height: 30px;
+    }
+    th {
+        background-color: dodgerblue;
+        color: #fff;
+    }
+    .accept {
+        background-color: green;
+        border-radius: 5px;
+        padding: 5px;
+    }
+    .process {
+        background-color: orange;
+        border-radius: 5px;
+        padding: 5px;
+    }
+    .reject {
+        background-color: red;
+        border-radius: 5px;
+        padding: 5px;
+    }
+    .headphone, .cart {
+        width: 30px;
+        height: 30px;
+        border-radius: 100%;
+        padding-top: 7px;
+    }
+    .headphone {
+        right: 0px;
+        bottom: 40px;
+    }
+    .cart {
+        right: 0px;
+        bottom: 5px;
+    }
+}
+
+@media screen and (min-width: 650px) and (max-width: 949px) {
+    table, th, td {
+        font-size: 1rem;
+        height: 45px;
+    }
+    th {
+        background-color: green;
+        color: #fff;
+    }
+    .accept {
+        background-color: green;
+        border-radius: 5px;
+        padding: 7px;
+    }
+    .process {
+        background-color: orange;
+        border-radius: 5px;
+        padding: 7px;
+    }
+    .reject {
+        background-color: red;
+        border-radius: 5px;
+        padding: 7px;
+    }
+    .headphone, .cart {
+        width: 35px;
+        height: 35px;
+        border-radius: 100%;
+        padding-top: 9px;
+    }
+    .headphone {
+        right: 3px;
+        bottom: 50px; 
+    }
+    .cart {
+        right: 3px;
+        bottom: 12px;
+    }
+}
+
+@media screen and (min-width: 950px) and (max-width: 1300px) {
+    table, th, td {
+        font-size: 1.2rem;
+        height: 60px;
+    }
+    th {
+        background-color: rebeccapurple;
+        color: #fff;
+    }
+    .accept {
+        background-color: green;
+        border-radius: 5px;
+        padding: 10px;
+    }
+    .process {
+        background-color: orange;
+        border-radius: 5px;
+        padding: 10px;
+    }
+    .reject {
+        background-color: red;
+        border-radius: 5px;
+        padding: 10px;
+    }
+    .headphone, .cart {
+        border: none;
+        width: 40px;
+        height: 40px;
+        border-radius: 100%;
+        text-align: center;
+        padding-top: 12px;
+        color: #fff;
+        position: fixed;
+    }
+    
+    .headphone {
+        background-color: rgb(66, 143, 221);
+        right: 5px;
+        bottom: 65px;
+    }
+    .cart {
+        background-color: rgb(62, 226, 62);
+        right: 5px;
+        bottom: 20px;
+    }
+}

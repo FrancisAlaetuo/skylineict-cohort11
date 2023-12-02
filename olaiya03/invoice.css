@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    padding-top: 25px;
+}
+
+.invoice {
+    width: 95%;
+    margin: auto;
+    position: relative;
+}
+
+table {
+    width: 100%;
+}
+
+table, th, td {
+    border-collapse: collapse;
+    height: 60px;
+    text-align: center;
+    border: none;
+    /* border: 1px solid rgb(211, 211, 211); */
+}
+
+th {
+    background-color: white;
+    color: #000;
+}
+
+.full {
+    background-color: green;
+    border-radius: 5px;
+    padding: 10px;
+}
+.part {
+    background-color: orange;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* tr:nth-child(even) {
+    background-color: green;
+}
+tr:nth-child(odd) {
+    background-color: orange;
+}
+tr:nth-child(17) {
+    background-color: white;
+} */
+
+/* iconify-icon {
+    display: inline;
+    position: absolute;
+} */
+
+.headphone, .cart {
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    text-align: center;
+    padding-top: 12px;
+    color: #fff;
+    position: fixed;
+}
+
+.headphone {
+    background-color: rgb(66, 143, 221);
+    right: 5px;
+    bottom: 65px;
+    
+}
+.cart {
+    background-color: rgb(62, 226, 62);
+    right: 5px;
+    bottom: 20px;
+}
+
+
+@media screen and (min-width: 350px) {
+    table, th, td {
+        font-size: 0.7rem;
+        height: 30px;
+    }
+    .full {
+        background-color: green;
+        border-radius: 5px;
+        padding: 5px;
+    }
+    .part {
+        background-color: orange;
+        border-radius: 5px;
+        padding: 5px;
+    }
+    .headphone, .cart {
+        width: 30px;
+        height: 30px;
+        border-radius: 100%;
+        padding-top: 7px;
+    }
+    .headphone {
+        right: 0px;
+        bottom: 40px;
+        
+    }
+    .cart {
+        right: 0px;
+        bottom: 5px;
+    }
+}
+
+@media screen and (min-width: 650px) {
+    table, th, td {
+        font-size: 1rem;
+        height: 45px;
+    }
+    .full {
+        background-color: green;
+        border-radius: 5px;
+        padding: 7px;
+    }
+    .part {
+        background-color: orange;
+        border-radius: 5px;
+        padding: 7px;
+    }
+    .headphone, .cart {
+        width: 35px;
+        height: 35px;
+        border-radius: 100%;
+        padding-top: 9px;
+    }
+    .headphone {
+        right: 3px;
+        bottom: 50px;
+        
+    }
+    .cart {
+        right: 3px;
+        bottom: 12px;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    table, th, td {
+        font-size: 1.2rem;
+        height: 60px;
+    }
+    th {
+        background-color: rebeccapurple;
+        color: #fff;
+    }
+}
